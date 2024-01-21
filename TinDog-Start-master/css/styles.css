@@ -1,0 +1,133 @@
+#title{
+    background-color: #ff4c68;
+}
+.heading{
+    font-size: 3.5rem;
+    line-height: 1;
+    color: white;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15% ;
+    margin-bottom: -200px;
+}
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    margin: 50px 0 0 0;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+.nav-item{
+    padding: auto 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding:auto;
+}
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    right: 30%;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+.sty{
+    margin: 50px;
+}
+#butt{
+    transition-duration: 0.5s;
+    color: rgba(9, 82, 50, 0.938);
+}
+#butt:hover{
+    color: #99ae11;
+   
+}
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ria{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#testimonials{
+    padding: 7% 12%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff ;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.testimonial-img{
+    border-radius:100%;
+    width: 20% ;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+@media (max-width:1028px) {
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+    .container-fluid{
+        padding: 3% 15% 7% ;
+        margin: auto;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10%;
+    height: 300px;
+    font-size: 3.5rem;
+}
+.he{
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    word-spacing: 0.5cm;
+    letter-spacing: 0.3cm;
+}
+#footer{
+    padding: 7% 15%;
+}
+#cta-heading{
+    color: black;
+    font-size: larger;
+  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 0.2cm;
+}
+.so{
+    margin: 6px 14px ;
+}
